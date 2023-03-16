@@ -10,4 +10,6 @@
 @import "./home/depoimento.css";
 @import "./global/footer.css";
 @import "./termos/termos.css";
-@import "./guitarras/guitarras.css"
+@import "./guitarras/guitarras.css";
+@import "./customizacao/vantagens.css";
+@import "./customizacao/perguntas.css";

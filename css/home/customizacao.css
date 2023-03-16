@@ -44,6 +44,7 @@
     background-color: var(--cor-12);
     padding: 20px 20px 20px 48px;
     margin: 12px 0px;
+    border-radius: 4px;
 }
 
 .customizacao-vantagens li {
