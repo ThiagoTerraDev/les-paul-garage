@@ -1,0 +1,93 @@
+.guitarras-bg {
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+}
+
+.guitarras {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.guitarras-imagem {
+    position: relative;
+}
+
+.guitarras-imagem span {
+    display: inline-block;
+    background: var(--cor-8);
+    padding: 8px 16px 8px 8px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.guitarras-conteudo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;    
+}
+
+.guitarras h2, .guitarras p {
+    grid-column: 1/-1;
+}
+
+.guitarras h2 {
+    margin-bottom: 20px;
+}
+
+.guitarras h2::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
+}
+
+.guitarras p {
+    margin-bottom: 32px;
+}
+
+.guitarras a {
+    place-self: end;
+}
+
+.guitarras li {
+    display: flex;
+    align-items: center;    
+    gap: 8px;
+}
+
+.guitarras ul {
+    display: grid;
+    gap: 16px;
+}
+
+@media (max-width: 800px) {
+    .guitarras-bg {
+        background: var(--cor-11);
+    }    
+    .guitarras {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .guitarras-conteudo {
+        grid-template-columns: 1fr;
+    }
+    .guitarras ul {
+        font-size: 1rem;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+    }
+    .guitarras a {
+        place-self: start;
+    }
+}
