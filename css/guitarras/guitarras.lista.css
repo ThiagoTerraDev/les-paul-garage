@@ -17,6 +17,10 @@
     overflow-x: auto; 
 }
 
+#guitarra .guitarras-lista ul {
+    padding: 0 0 20px 0;
+}
+
 .guitarras-lista li {
     flex: 1;
     min-width: 280px;
