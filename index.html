@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les Paul Garage - Guitarras Usadas</title>
-    <meta name="description" content="Guitarras Les Paul em perfeito estado e customizáveis. Somos uma empresa formada por pessoas apaixonadas pelas icônicas guitarras Les Paul. Se você compartilha dessa mesma paixão, seu lugar é aqui.">
+    <meta name="description" content="Guitarras Les Paul em perfeito estado e customizáveis. Somos uma empresa formada por pessoas apaixonadas pelas icônicas guitarras Les Paul. Se você compartilha dessa mesma paixão, seu lugar é aqui.">    
+    <link rel="preload" href="./css/styles.css" as="style">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 <body>
     <header class="header-bg">
         <div class="header container">
-            <a href="./"><img src="./les-paul-garage-arquivos-otm/img/lespaulgarage 1.svg" alt="Les Paul Garage"></a>            
+            <a href="./"><img src="./les-paul-garage-arquivos-otm/img/lespaulgarage 1.svg" width="136" height="73" alt="Les Paul Garage"></a>            
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m cor-0">
                     <li><a href="./guitarras.html">Guitarras</a></li>
@@ -33,9 +34,10 @@
                 <p class="font-2-l cor-5">Somos uma empresa formada por pessoas apaixonadas pelas icônicas guitarras Les Paul. Se você compartilha dessa mesma paixão, seu lugar é aqui.</p>
                 <a class="botao" href="./guitarras.html">ESCOLHA A SUA</a>
             </div>
-            <div>
-                <img src="./les-paul-garage-arquivos-otm/img/fotos/introducao.jpg" alt="Les Paul Preta">
-            </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./les-paul-garage-arquivos-otm/img/fotos/ebony1.jpg">
+                <img src="./les-paul-garage-arquivos-otm/img/fotos/introducao.jpg" width="584" height="859" alt="Les Paul Preta">
+            </picture>           
         </div>
     </main>
 
@@ -45,21 +47,21 @@
         <ul>
             <li>
                 <a href="./guitarras/psl68.html">
-                    <img src="./les-paul-garage-arquivos-otm/img/fotos/guita1-home (1).jpg" alt="Guitarra Amarela">
+                    <img src="./les-paul-garage-arquivos-otm/img/fotos/guita1-home (1).jpg" width="720" height="1080" alt="Guitarra Amarela">
                     <h3 class="font-1-xl">Gibson Custom Shop PSL '68</h3>
                     <span class="font-2-m cor-8">R$ 9.999,99</span>
                 </a>
             </li>
             <li>
                 <a href="./guitarras/ebony2018.html">
-                    <img src="./les-paul-garage-arquivos-otm/img/fotos/guita4-home.jpg" alt="Guitarra Preta">
+                    <img src="./les-paul-garage-arquivos-otm/img/fotos/guita4-home.jpg" width="720" height="1080" alt="Guitarra Preta">
                     <h3 class="font-1-xl">Gibson Custom Shop Ebony 2018</h3>
                     <span class="font-2-m cor-8">R$ 13.999,99</span>
                 </a>
             </li>             
             <li>
                 <a href="./guitarras/ec1000.html">
-                    <img src="./les-paul-garage-arquivos-otm/img/fotos/guita3-home.jpg" alt="Guitarra Roxa">
+                    <img src="./les-paul-garage-arquivos-otm/img/fotos/guita3-home.jpg" width="720" height="1080" alt="Guitarra Roxa">
                     <h3 class="font-1-xl">ESP LTD EC-1000</h3>
                     <span class="font-2-m cor-8">R$ 5.999,99</span>
                 </a>
@@ -87,7 +89,7 @@
 
             </div>
             <div class="customizacao-imagem">
-                <img src="./les-paul-garage-arquivos-otm/img/fotos/customizacao1.jpg" alt="Guitarra customizada">
+                <img src="./les-paul-garage-arquivos-otm/img/fotos/customizacao1.jpg" width="1160" height="2063" alt="Guitarra customizada">
             </div>
         </div>
     </article>
@@ -96,16 +98,16 @@
         <h2 class="container font-1-xxl">Nossos parceiros<span class="cor-p1">.</span></h2>
 
         <ul>
-            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/Group.svg" alt="Gibson"></li>
-            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/Ephipone_guitars_logo.svg" alt="Epiphone"></li>
-            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/ESP_Logo.svg" alt="Esp"></li>
-            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/layer1.svg" alt="Ltd"></li>            
+            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/Group.svg" width="220" height="115" alt="Gibson"></li>
+            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/Ephipone_guitars_logo.svg" width="290" height="98" alt="Epiphone"></li>
+            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/ESP_Logo.svg" width="150" height="65" alt="Esp"></li>
+            <li><img src="./les-paul-garage-arquivos-otm/img/parceiros/layer1.svg" width="120" height="78" alt="Ltd"></li>            
         </ul>
     </section>
 
     <section class="depoimento" aria-label="Depoimento">
         <div>
-            <img src="./les-paul-garage-arquivos-otm/img/fotos/depoimento.jpg" alt="Pessoa com guitarra comprada na Les Paul Garage">
+            <img src="./les-paul-garage-arquivos-otm/img/fotos/depoimento.jpg" width="1960" height="1320" alt="Pessoa com guitarra comprada na Les Paul Garage">
         </div>
         <div class="depoimento-conteudo">
             <blockquote class="font-1-xl cor-p5">
@@ -117,7 +119,7 @@
 
     <footer class="footer-bg">
         <div class="footer container">
-            <img src="./les-paul-garage-arquivos-otm/img/lespaulgarage 1.svg" alt="Les Paul Garage">
+            <img src="./les-paul-garage-arquivos-otm/img/lespaulgarage 1.svg" width="136" height="73" alt="Les Paul Garage">
             <div class="footer-contato">
                 <h3 class="font-2-l-b cor-0">Contato</h3>
                 <ul class="font-2-m cor-5">
@@ -128,13 +130,13 @@
                 </ul>
                 <div class="footer-redes">
                     <a href="./">
-                        <img src="./les-paul-garage-arquivos-otm/img/redes/instagram-white.svg" alt="Instagram">
+                        <img src="./les-paul-garage-arquivos-otm/img/redes/instagram-white.svg" width="32" height="32" alt="Instagram">
                     </a>
                     <a href="./">
-                        <img src="./les-paul-garage-arquivos-otm/img/redes/facebook-white.svg" alt="Facebook">
+                        <img src="./les-paul-garage-arquivos-otm/img/redes/facebook-white.svg" width="32" height="32" alt="Facebook">
                     </a>
                     <a href="./">
-                        <img src="./les-paul-garage-arquivos-otm/img/redes/youtube-white.svg" alt="Youtube">
+                        <img src="./les-paul-garage-arquivos-otm/img/redes/youtube-white.svg" width="32" height="24" alt="Youtube">
                     </a>
                 </div>
             </div>
@@ -152,7 +154,8 @@
             <p class="footer-copy font-2-m cor-6">Les Paul Garage © Alguns direitos Reservados.</p>
         </div>
     </footer>
-
+        
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
