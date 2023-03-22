@@ -3,7 +3,8 @@
 }
 
 .vantagens.container {
-    padding-top: 80px;      
+    padding-top: 80px;
+    padding-bottom: 80px;      
 }
 
 .vantagens.container p {
@@ -34,6 +35,11 @@
     height: 8px;
     background-color: var(--cor-p1);
     margin-bottom: 8px;
+}
+
+.vantagens.container a {
+    display: block;
+    margin: 0 auto;    
 }
 
 @media (max-width: 800px) {
