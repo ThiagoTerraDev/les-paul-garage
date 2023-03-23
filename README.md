@@ -28,4 +28,4 @@ Responsive web design approach was applied during the development of this websit
 * Git
 * Figma
 
-Contact me: thiagoterradev@gmail.com
+### Contact me: thiagoterradev@gmail.com
