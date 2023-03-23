@@ -18,6 +18,8 @@ Responsive web design approach was applied during the development of this websit
 
 ## Layout desktop
 
+![desktop1](https://user-images.githubusercontent.com/125769752/227311869-e630b64a-23ef-41fa-8bbf-1ebb6c75dcd1.png)
+
 ## Technologies I used:
 
 * HTML
