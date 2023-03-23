@@ -29,3 +29,4 @@ Responsive web design approach was applied during the development of this websit
 * Figma
 
 ### Contact me: thiagoterradev@gmail.com
+### See my LinkedIn: https://www.linkedin.com/in/thiago-terra-158a71266/
