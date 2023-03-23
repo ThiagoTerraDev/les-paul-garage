@@ -1,25 +1,26 @@
-Conteúdo
-
 1. NECESSIDADES DO CLIENTE
-1.2. Cerca de 20 orçamentos solicitados por semana.
 
-1.3. Modernizar o site e fornecer mais informações sobre os produtos.
+    1.1. Cerca de 20 orçamentos solicitados por semana.
+
+    1.2. Modernizar o site e fornecer mais informações sobre os produtos.
 
 2 SOBRE A EMPRESA
-2.1. Venda de guitarras Les Paul usadas (porém, reparadas) + serviço de customização/upgrade de guitarras (este último é algo opcional do cliente).
 
-2.2. Clientes estão familiarizados com as guitarras, mas não com a customização.
+    2.1. Venda de guitarras Les Paul usadas (porém, reparadas) + serviço de customização.
 
-2.3. Telefone, endereço e e-mail da única loja física. Terá formulário.
+    2.2. Clientes estão familiarizados com as guitarras, mas não com a customização.
 
-2.4. Possui parceiros que fornecem guitarras e materiais de alta qualidade.
+    2.3. Telefone, endereço e e-mail da única loja física. Terá formulário.
 
-2.5. Os produtos são trabalhados com total precisão e todos eles são inspecionados minuciosamente antes de serem entregues aos clientes.
+    2.4. Possui parceiros.
+
+    2.5. Os produtos são trabalhados com total precisão e todos eles são inspecionados minuciosamente antes de serem entregues aos clientes.
 
 3. SOBRE O SITE
-3.1. Uma área para mostrar os produtos, planos, sobre o processo de customização + upgrade e uma página de contato.
 
-3.2. O cliente deve poder pedir o orçamento direto no site.
+    3.1. Uma área para mostrar os produtos, valores, sobre o processo de customização e uma página de contato.
 
-3.3. O site atualiza todo mês.
+    3.2. O cliente pode pedir o orçamento direto no site.
+
+    3.3. O site atualiza todo mês.
 	
