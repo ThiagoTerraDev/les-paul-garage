@@ -1,5 +1,3 @@
-// Ativar Links do Menu
-
 const links = document.querySelectorAll('.header-menu a');
 
 function ativarLink(link) {
@@ -12,8 +10,6 @@ function ativarLink(link) {
 
 links.forEach(ativarLink);
 
-// Ativar Itens do Orçamento
-
 const parametros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro) {
@@ -24,8 +20,6 @@ function ativarProduto(parametro) {
 }
 
 parametros.forEach(ativarProduto);
-
-// Perguntas Frequentes
 
 const perguntas = document.querySelectorAll('.perguntas button');
 
@@ -45,8 +39,6 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-// Galeria de Guitarras
-
 const galeria = document.querySelectorAll('.guitarra-imagens img');
 const galeriaContainer = document.querySelector('.guitarra-imagens');
 
@@ -63,8 +55,6 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
-
-// Animação
 
 if(window.SimpleAnime) {
     new SimpleAnime();
